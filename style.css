@@ -1,19 +1,63 @@
-#background {
-  width: 100%;
-  height: 500px;
+header {
+  background: gray;
 }
 
-.titulo-principal{
-    padding-left: 20px;
+.caixa {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav ul {
+  margin: 0 0 0 0;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+nav a:hover {
+  color: orange;
+  text-decoration: underline;
 }
 
 .principal {
-  background-color: lightgray;
+  background-color: gray;
+  margin-top: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
   padding: 30px;
+  border: 3px solid black;
+  border-radius: 50px;
+  color: black;
+}
+
+.principal:hover{
+  border: 4px solid orange;
 }
 
 .titulo-centralizado {
+  font-size: 24px;
   text-align: center;
+  padding-bottom: 20px;
+  font-weight: bold;
 }
 
 p {
@@ -25,28 +69,48 @@ p {
 }
 
 em strong {
-  color: red;
+  color:black;
+  font-weight: bold;
 }
 
 .itens {
-    font-style: italic;
-  }
+  font-style: italic;
+}
 
 .beneficios {
   background-color: whitesmoke;
-  padding: 20px;
+  padding: 30px;
 }
 
-.titulo-beneficios-centralizado{
-    text-align: center;
+.titulo-beneficios-centralizado {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-align: center;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 15%;
+.lista-beneficios {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  text-align: center;
+  margin: auto;
 }
 
-.imagembeneficios{
-    width: 50%;
+.imagembeneficios {
+  text-align: center;
+  width: 50%;
+
+}
+
+footer {
+  text-align: center;
+  background: url(images/Produtos/bg.jpg);
+}
+
+.copyright {
+  font-size: 12px;
+  color: white;
+  padding: 40px 0px;
 }
